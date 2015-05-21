@@ -10,6 +10,8 @@
 
 @interface TLItemsTableViewController ()
 
+@property (nonatomic, readonly) NSFetchedResultsController *fetchedResultsController;
+
 @end
 
 @implementation TLItemsTableViewController
@@ -23,7 +25,9 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
+    [[UIImage alloc] init]
     
+    self.fetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:<#(NSFetchRequest *)#> managedObjectContext:<#(NSManagedObjectContext *)#> sectionNameKeyPath:<#(NSString *)#> cacheName:<#(NSString *)#>];
 }
 
 
