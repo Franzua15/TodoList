@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41193B1B1B0D5AF900494272 /* TLItemsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41193B1A1B0D5AF900494272 /* TLItemsTableViewController.m */; };
+		41193B1E1B0D5B6F00494272 /* TLItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41193B1D1B0D5B6F00494272 /* TLItemTableViewCell.m */; };
+		41193B211B0D5CA600494272 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41193B1F1B0D5CA600494272 /* Model.xcdatamodeld */; };
+		41193B241B0D5E1E00494272 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 41193B231B0D5E1E00494272 /* Item.m */; };
 		418148031B0C1345000D9631 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 418148021B0C1345000D9631 /* main.m */; };
 		418148061B0C1345000D9631 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 418148051B0C1345000D9631 /* AppDelegate.m */; };
-		418148091B0C1345000D9631 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 418148081B0C1345000D9631 /* ViewController.m */; };
 		4181480C1B0C1345000D9631 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4181480A1B0C1345000D9631 /* Main.storyboard */; };
 		4181480E1B0C1345000D9631 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4181480D1B0C1345000D9631 /* Images.xcassets */; };
 		418148111B0C1345000D9631 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4181480F1B0C1345000D9631 /* LaunchScreen.xib */; };
@@ -27,13 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41193B191B0D5AF900494272 /* TLItemsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLItemsTableViewController.h; sourceTree = "<group>"; };
+		41193B1A1B0D5AF900494272 /* TLItemsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLItemsTableViewController.m; sourceTree = "<group>"; };
+		41193B1C1B0D5B6F00494272 /* TLItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLItemTableViewCell.h; sourceTree = "<group>"; };
+		41193B1D1B0D5B6F00494272 /* TLItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLItemTableViewCell.m; sourceTree = "<group>"; };
+		41193B201B0D5CA600494272 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		41193B221B0D5E1E00494272 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		41193B231B0D5E1E00494272 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 		418147FD1B0C1345000D9631 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		418148011B0C1345000D9631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		418148021B0C1345000D9631 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		418148041B0C1345000D9631 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		418148051B0C1345000D9631 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		418148071B0C1345000D9631 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		418148081B0C1345000D9631 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4181480B1B0C1345000D9631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4181480D1B0C1345000D9631 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		418148101B0C1345000D9631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -60,6 +68,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41193B161B0D5A3600494272 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				41193B191B0D5AF900494272 /* TLItemsTableViewController.h */,
+				41193B1A1B0D5AF900494272 /* TLItemsTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		41193B171B0D5A3E00494272 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41193B1F1B0D5CA600494272 /* Model.xcdatamodeld */,
+				41193B221B0D5E1E00494272 /* Item.h */,
+				41193B231B0D5E1E00494272 /* Item.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		41193B181B0D5A4300494272 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41193B1C1B0D5B6F00494272 /* TLItemTableViewCell.h */,
+				41193B1D1B0D5B6F00494272 /* TLItemTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		418147F41B0C1345000D9631 = {
 			isa = PBXGroup;
 			children = (
@@ -83,11 +119,12 @@
 			children = (
 				418148041B0C1345000D9631 /* AppDelegate.h */,
 				418148051B0C1345000D9631 /* AppDelegate.m */,
-				418148071B0C1345000D9631 /* ViewController.h */,
-				418148081B0C1345000D9631 /* ViewController.m */,
 				4181480A1B0C1345000D9631 /* Main.storyboard */,
 				4181480D1B0C1345000D9631 /* Images.xcassets */,
 				4181480F1B0C1345000D9631 /* LaunchScreen.xib */,
+				41193B181B0D5A4300494272 /* View */,
+				41193B171B0D5A3E00494272 /* Model */,
+				41193B161B0D5A3600494272 /* Controller */,
 				418148001B0C1345000D9631 /* Supporting Files */,
 			);
 			path = TodoList;
@@ -219,8 +256,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				418148091B0C1345000D9631 /* ViewController.m in Sources */,
+				41193B241B0D5E1E00494272 /* Item.m in Sources */,
 				418148061B0C1345000D9631 /* AppDelegate.m in Sources */,
+				41193B1B1B0D5AF900494272 /* TLItemsTableViewController.m in Sources */,
+				41193B211B0D5CA600494272 /* Model.xcdatamodeld in Sources */,
+				41193B1E1B0D5B6F00494272 /* TLItemTableViewCell.m in Sources */,
 				418148031B0C1345000D9631 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +456,7 @@
 				418148221B0C1345000D9631 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		418148231B0C1345000D9631 /* Build configuration list for PBXNativeTarget "TodoListTests" */ = {
 			isa = XCConfigurationList;
@@ -424,8 +465,22 @@
 				418148251B0C1345000D9631 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		41193B1F1B0D5CA600494272 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				41193B201B0D5CA600494272 /* Model.xcdatamodel */,
+			);
+			currentVersion = 41193B201B0D5CA600494272 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 418147F51B0C1345000D9631 /* Project object */;
 }
